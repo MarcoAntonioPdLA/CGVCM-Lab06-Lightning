@@ -34,7 +34,7 @@ public class EmotionLighting : MonoBehaviour {
 
     private void SetFear() {
         roomLight.color = new Color(0.8f, 0.1f, 0.1f);
-        roomLight.intensity = 3f;
+        roomLight.intensity = 25f;
         RenderSettings.ambientLight = new Color(0.03f, 0.03f, 0.03f);
     }
 }
