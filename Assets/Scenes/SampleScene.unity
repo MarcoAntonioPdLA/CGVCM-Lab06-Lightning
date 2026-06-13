@@ -693,7 +693,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 0
-  m_Color: {r: 0.0044641574, g: 0.78867924, b: 0.04151199, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 45
   m_Range: 200
   m_SpotAngle: 179
@@ -3134,6 +3134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e169b0b00ce427a45892f69fd575a143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  roomLight: {fileID: 133811624}
 --- !u!1001 &1781951779
 PrefabInstance:
   m_ObjectHideFlags: 0
